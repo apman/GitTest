@@ -1,14 +1,19 @@
 Git workflow: 
+-------------
 
+	•	do a bit of work (create/edit files, they’re still ‘untracked’)
+	•	add it to the staging area (ready to take a snapshot) 
+	•	commit (take a snapshot of the current state of affairs (use -m flag to add a comment of what has changed since last one)
 
-- do a bit of work (create/edit files, they’re still ‘untracked’)
-- add it to the staging area (ready to take a snapshot) 
-- commit (take a snapshot of the current state of affairs (use -m flag to add a comment of what has changed since last one)
 
 Strive for atomic commits
 
 
+Commit messages
+===============
+
 Commit summary/subject line: 
+----------------------------
 Convention is to use imperative, i.e. not what *you did*, but what the *commit does*:
 	•	If applied, this commit will your subject line here
 
@@ -19,3 +24,6 @@ Use the body/description to explain what and why vs. how
 (good article on commit messages: http://chris.beams.io/posts/git-commit/
 
 To see the history, you use git log 
+
+TODO:
+- read more about Dropbox corrupting git repositories (see screenshot in BCS/git)
