@@ -1,0 +1,21 @@
+git add <filename>   		// adds the file to staging 
+git add .            		// adds all files 
+git commit -m "Message ..."  	// 
+
+git checkout <filename>   	// overwrite changed working file with version in staging
+git reset HEAD <filename> 	// remove staged file (without overwriting working version)
+                          	//  i.e. that version was never meant to be staged at all, 
+                          	//  just forget it ...
+
+
+-------------  
+git config --global --edit  	// opens a config file with name & email in vim
+type i (for insert) to edit the text
+--> to get out of that type a colon (:) and then commands:
+:write   (or just :w )  	// to save
+:quit    (or just :q )  	// to exit the editor
+:wq                     	// to save and exit
+------------------
+
+clear         // clears the screen of all previous commands etc.
+              //   (but not the history, so you can still use up-arrow key)
