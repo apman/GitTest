@@ -5,7 +5,10 @@ git commit -m "Message ..."  	//
 git checkout <filename>   	// overwrite changed working file with version in staging
 git reset HEAD <filename> 	// remove staged file (without overwriting working version)
                           	//  i.e. that version was never meant to be staged at all, 
-                          	//  just forget it ...
+                          	//  and the latest change in the current working file is better
+                            // (so in effect, that's the same as just doing
+                            //  'git add <filename>' again, except that the file would be 
+                            //  staged as a result, whereas if you reset the HEAD it wouldn't be.  
 
 
 -------------  
