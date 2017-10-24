@@ -23,7 +23,7 @@ Use the body/description to explain what and why vs. how
 
 (good article on commit messages: http://chris.beams.io/posts/git-commit/
 
-To see the history, you use git log 
+To see the history, use git log 
 
 TODO:
 - read more about Dropbox corrupting git repositories (see screenshot in BCS/git)
