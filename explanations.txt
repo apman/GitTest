@@ -1,4 +1,7 @@
-staging versus committing 
+staging vs. committing 
 --------------------------
 staging vs. committing can be thought of like saving vs. printing a document: you save, just to make sure you don't loose where you're at with your work, and you print it when it's ready for someone else to look at. 
 --------------------------
+
+
+Merging vs. Rebasing
