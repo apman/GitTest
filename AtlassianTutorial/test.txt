@@ -2,5 +2,6 @@ start
 
 testing a lot more conflicting changes
 
+more
 
-something new 
+more again
